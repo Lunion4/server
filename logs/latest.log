@@ -1,0 +1,310 @@
+[15:01:27] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[15:01:27] [main/INFO]: Loading 133 mods:
+	- architectury 9.0.8
+	- armor-stand-editor 2.1.1+1.20-rc1
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- player-data-api 0.2.2+1.19.3
+	   \-- sgui 1.2.2+1.20
+	- badpackets 0.4.1
+	- c2me 0.2.0+alpha.10.91
+	   |-- c2me-base 0.2.0+alpha.10.91
+	   |-- c2me-client-uncapvd 0.2.0+alpha.10.91
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.10.91
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.10.91
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.10.91
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.10.91
+	   |-- c2me-notickvd 0.2.0+alpha.10.91
+	   |-- c2me-opts-allocs 0.2.0+alpha.10.91
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.10.91
+	   |-- c2me-opts-chunkio 0.2.0+alpha.10.91
+	   |-- c2me-opts-math 0.2.0+alpha.10.91
+	   |-- c2me-opts-scheduling 0.2.0+alpha.10.91
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.10.91
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.10.91
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.10.91
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.10.91
+	   |-- c2me-server-utils 0.2.0+alpha.10.91
+	   |-- c2me-threading-chunkio 0.2.0+alpha.10.91
+	   |-- c2me-threading-lighting 0.2.0+alpha.10.91
+	   |-- c2me-threading-worldgen 0.2.0+alpha.10.91
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_github_llamalad7_mixinextras 0.1.1
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- carpet 1.4.112+v230608
+	- collective 6.62
+	- doubledoors 5.0
+	- easyauth 3.0.0-17
+	   |-- at_favre_lib_bcrypt 0.9.0
+	   |-- at_favre_lib_bytes 1.5.0
+	   |-- com_mysql_mysql-connector-j 8.0.33
+	   |-- de_mkammerer_argon2-jvm 2.11
+	   |-- de_mkammerer_argon2-jvm-nolibs 2.11
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- net_java_dev_jna_jna 5.12.1
+	   |-- org_iq80_leveldb_leveldb 0.12
+	   |-- org_iq80_leveldb_leveldb-api 0.12
+	   |-- org_mongodb_bson 4.7.2
+	   |-- org_mongodb_mongodb-driver-core 4.7.2
+	   |-- org_mongodb_mongodb-driver-sync 4.7.2
+	   |-- placeholder-api 2.1.1+1.20
+	   \-- server_translations_api 2.0.0+1.20
+	        \-- packet_tweaker 0.4.0+1.19.4
+	- fabric-api 0.83.1+1.20.1
+	   |-- fabric-api-base 0.4.29+b04edc7a77
+	   |-- fabric-api-lookup-api-v1 1.6.34+4d8536c977
+	   |-- fabric-biome-api-v1 13.0.10+b3afc78b77
+	   |-- fabric-block-api-v1 1.0.9+e022e5d177
+	   |-- fabric-blockrenderlayer-v1 1.1.39+b3afc78b77
+	   |-- fabric-client-tags-api-v1 1.0.20+b3afc78b77
+	   |-- fabric-command-api-v1 1.2.32+f71b366f77
+	   |-- fabric-command-api-v2 2.2.11+b3afc78b77
+	   |-- fabric-commands-v0 0.2.49+df3654b377
+	   |-- fabric-containers-v0 0.1.61+df3654b377
+	   |-- fabric-content-registries-v0 4.0.7+b3afc78b77
+	   |-- fabric-convention-tags-v1 1.5.3+b3afc78b77
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	   |-- fabric-data-generation-api-v1 12.1.11+b3afc78b77
+	   |-- fabric-dimensions-v1 2.1.51+b3afc78b77
+	   |-- fabric-entity-events-v1 1.5.21+b3afc78b77
+	   |-- fabric-events-interaction-v0 0.6.0+b3afc78b77
+	   |-- fabric-events-lifecycle-v0 0.2.61+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.38+b04edc7a77
+	   |-- fabric-item-api-v1 2.1.26+b3afc78b77
+	   |-- fabric-item-group-api-v1 4.0.7+b3afc78b77
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-keybindings-v0 0.2.34+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.20+b3afc78b77
+	   |-- fabric-loot-api-v2 1.1.37+b3afc78b77
+	   |-- fabric-loot-tables-v1 1.1.41+9e7660c677
+	   |-- fabric-message-api-v1 5.1.6+b3afc78b77
+	   |-- fabric-mining-level-api-v1 2.1.47+b3afc78b77
+	   |-- fabric-models-v0 0.3.35+b3afc78b77
+	   |-- fabric-networking-api-v1 1.3.8+b3afc78b77
+	   |-- fabric-networking-v0 0.3.48+df3654b377
+	   |-- fabric-object-builder-api-v1 11.0.6+b3afc78b77
+	   |-- fabric-particles-v1 1.0.28+b3afc78b77
+	   |-- fabric-recipe-api-v1 1.0.18+b3afc78b77
+	   |-- fabric-registry-sync-v0 2.2.6+b3afc78b77
+	   |-- fabric-renderer-api-v1 3.0.1+b3afc78b77
+	   |-- fabric-renderer-indigo 1.3.1+b3afc78b77
+	   |-- fabric-renderer-registries-v1 3.2.44+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.33+b3afc78b77
+	   |-- fabric-rendering-fluids-v1 3.0.26+b3afc78b77
+	   |-- fabric-rendering-v0 1.1.47+df3654b377
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b77
+	   |-- fabric-resource-conditions-api-v1 2.3.5+ea08f9d877
+	   |-- fabric-resource-loader-v0 0.11.7+f7923f6d77
+	   |-- fabric-screen-api-v1 2.0.6+b3afc78b77
+	   |-- fabric-screen-handler-api-v1 1.3.27+b3afc78b77
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b77
+	   |-- fabric-transfer-api-v1 3.2.2+b3afc78b77
+	   \-- fabric-transitive-access-wideners-v1 4.2.0+b3afc78b77
+	- fabric-language-kotlin 1.9.6+kotlin.1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.8.22
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.21.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.5.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.5.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.5.1
+	- fabricloader 0.14.21
+	- fabrictailor 2.1.2
+	   |-- config2brigadier 1.2.3
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- inrealtime 1.0.0-1.20.1
+	- jamlib 0.6.0+1.20
+	- java 19
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- ksyxis 1.1
+	- lazydfu 0.1.3
+	- ledger 1.2.8
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- lithium 0.11.2
+	- luckperms 5.4.88
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- minecraft 1.20.1
+	- nochatreports 1.20.1-v2.2.1
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- plasmovoice 2.0.5
+	   |-- aopalliance_aopalliance 1.0
+	   |-- com_google_inject_guice 5.0.1
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- javax_inject_javax_inject 1
+	- playerladder 0.6.0-1.20
+	- polymer-bundled 0.5.3+1.20.1
+	   |-- polymer-autohost 0.5.3+1.20.1
+	   |-- polymer-blocks 0.5.3+1.20.1
+	   |-- polymer-common 0.5.3+1.20.1
+	   |    \-- packet_tweaker 0.4.0+1.19.4
+	   |-- polymer-core 0.5.3+1.20.1
+	   |    |-- polymer-networking 0.5.3+1.20.1
+	   |    |    \-- polymer-common 0.5.3+1.20.1
+	   |    |         \-- packet_tweaker 0.4.0+1.19.4
+	   |    \-- polymer-registry-sync-manipulator 0.5.3+1.20.1
+	   |-- polymer-resource-pack 0.5.3+1.20.1
+	   |    \-- polymer-common 0.5.3+1.20.1
+	   |         \-- packet_tweaker 0.4.0+1.19.4
+	   \-- polymer-virtual-entity 0.5.3+1.20.1
+	        \-- polymer-common 0.5.3+1.20.1
+	             \-- packet_tweaker 0.4.0+1.19.4
+	- polysit 0.4.1+mc.1.20.1
+	- rightclickharvest 3.2.2+1.19.x-1.20.1-fabric
+	- starlight 1.1.2+fabric.dbc156f
+[15:01:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[15:01:27] [main/INFO]: Compatibility level set to JAVA_16
+[15:01:27] [main/INFO]: Compatibility level set to JAVA_17
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:01:28] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[15:01:28] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[15:01:28] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[15:01:28] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[15:01:28] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
+[15:01:28] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton]) disables it and children
+[15:01:30] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[15:01:30] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mdb293ba$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[15:01:30] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mdb293ba$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[15:01:33] [main/ERROR]: No data fixer registered for polysit:seat
+[15:01:33] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[15:01:33] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[15:01:33] [main/WARN]: Method overwrite conflict for getConnection in krypton.mixins.json:shared.network.util.ServerPlayNetworkHandlerAccessor from mod krypton, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[15:01:34] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[15:01:34] [main/INFO]: Loading Collective version 6.62.
+[15:01:34] [main/INFO]: Loaded C2B lib.
+[15:01:34] [main/INFO]: [EasyAuth]: EasyAuth mod by samo_lego, NikitaCartes.
+[15:01:34] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[15:01:34] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[15:01:34] [main/WARN]: [EasyAuth]: You cannot use server in offline mode and premiumAutologin! Disabling the latter.
+[15:01:34] [main/INFO]: In Real-Time 1.0.0 Loaded Successfully!
+[15:01:34] [main/INFO]: [jamlib] Mod initialized!
+[15:01:34] [main/INFO]: Compression will use Java, encryption will use Java
+[15:01:34] [main/WARN]: Ksyxis will speedup your world loading. :P
+[15:01:34] [main/WARN]: BUT IT MAY CAUSE ISSUES (INCLUDING COMPAT). DON'T ASK OTHER MODS' AUTHORS FOR COMPAT!
+[15:01:34] [main/INFO]: KONNICHIWA ZA WARUDO!
+[15:01:34] [main/INFO]: Default JVM text encoding is: UTF-8
+[15:01:34] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[15:01:34] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[15:01:35] [main/INFO]: [rightclickharvest] Initializing VersionUtils
+[15:01:35] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
+[15:01:35] [main/INFO]: [jamlib] Registered config for rightclickharvest
+[15:01:35] [main/INFO]: [rightclickharvest] Mod initialized!
+[15:01:35] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[15:01:35] [main/INFO]: Initializing Ledger 1.2.8
+[15:01:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:01:38] [main/INFO]: Loaded 7 recipes
+[15:01:38] [main/INFO]: Loaded 1271 advancements
+[15:01:38] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 204 translation keys
+[15:01:38] [main/INFO]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.class_3176
+[15:01:38] [main/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[15:01:38] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.228 ms
+[15:01:38] [Server thread/INFO]: Preparing create tables statements took 13ms
+[15:01:38] [Server thread/INFO]: Executing create tables statements took 12ms
+[15:01:38] [Server thread/INFO]: Extracting table columns took 3ms
+[15:01:38] [Server thread/INFO]: Preparing alter table statements took 4ms
+[15:01:38] [Server thread/INFO]: Executing alter table statements took 0ms
+[15:01:38] [Server thread/INFO]: Index on table 'players' differs only in name: in db players_player_id -> in mapping players_player_id_unique
+[15:01:38] [Server thread/INFO]: Index on table 'ActionIdentifiers' differs only in name: in db ActionIdentifiers_action_identifier -> in mapping ActionIdentifiers_action_identifier_unique
+[15:01:38] [Server thread/INFO]: Index on table 'ObjectIdentifiers' differs only in name: in db ObjectIdentifiers_identifier -> in mapping ObjectIdentifiers_identifier_unique
+[15:01:38] [Server thread/INFO]: Index on table 'sources' differs only in name: in db sources_name -> in mapping sources_name_unique
+[15:01:38] [Server thread/INFO]: Index on table 'worlds' differs only in name: in db worlds_identifier -> in mapping worlds_identifier_unique
+[15:01:38] [Server thread/INFO]: Checking mapping consistence took 92ms
+[15:01:38] [Server thread/INFO]: Tables created
+[15:01:38] [DefaultDispatcher-worker-5/INFO]: Inserting 1500 registry keys into the database...
+[15:01:38] [Server thread/INFO]:         __    
+[15:01:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.88
+[15:01:38] [Server thread/INFO]:   |___ |      Running on Fabric - fabric@0.83.1+1.20.1
+[15:01:38] [Server thread/INFO]: 
+[15:01:38] [Server thread/INFO]: Loading configuration...
+[15:01:39] [Server thread/INFO]: Loading storage provider... [H2]
+[15:01:39] [Server thread/INFO]: Loading internal permission managers...
+[15:01:39] [Server thread/INFO]: Performing initial data load...
+[15:01:39] [Server thread/INFO]: Successfully enabled. (took 600ms)
+[15:01:39] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:01:39] [Server thread/INFO]: Loading properties
+[15:01:39] [Server thread/INFO]: Default game type: SURVIVAL
+[15:01:39] [Server thread/INFO]: Generating keypair
+[15:01:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:01:39] [Server thread/INFO]: Using default channel type
+[15:01:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:01:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:01:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:01:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:01:39] [Server thread/INFO]: Preparing level "world"
+[15:01:39] [Server thread/INFO]: Enforcing safe world random access
+[15:01:40] [DefaultDispatcher-worker-5/INFO]: Registry insert complete
+[15:01:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:01:41] [Server thread/INFO]: Not the long loadi-
+[15:01:41] [Server thread/INFO]: Time elapsed: 10 ms
+[15:01:41] [Server thread/INFO]: Done (1.261s)! For help, type "help"
+[15:01:41] [Server thread/INFO]: LuckPerms permissions listener attached
+[15:01:41] [Server thread/INFO]: UDP server is started on /[0:0:0:0:0:0:0:0]:25565
+[15:01:41] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[15:01:44] [Netty Server IO #1/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[15:01:44] [Netty Server IO #1/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[15:01:44] [Netty Server IO #1/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[15:01:50] [luckperms-worker-1/WARN]: LuckPerms already has data for player 'Lunion4' - but this data is stored under a different UUID.
+[15:01:50] [luckperms-worker-1/WARN]: 'Lunion4' has previously used the unique ids [e9a946ca-02d1-41d3-b0f6-4d4fd8986abc] but is now connecting with 'fa899838-0e79-313d-beeb-c85fe0644f6a'
+[15:01:50] [luckperms-worker-1/WARN]: The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[15:01:50] [luckperms-worker-1/WARN]: If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[15:01:50] [luckperms-worker-1/WARN]: See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[15:01:50] [Server thread/INFO]: Lunion4[/127.0.0.1:60071] logged in with entity id 28 at (16.5, 64.0, -41.5)
+[15:01:50] [Server thread/INFO]: Lunion4 joined the game
+[15:01:52] [Server thread/INFO]: Player Lunion4 joined with a matching carpet client
+[15:02:42] [Server thread/INFO]: [Lunion4: ]
+[15:02:42] [Server thread/INFO]: [Lunion4: Average tick time: 3,495ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: Network: 0,138ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: Carpet: 0,018ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: Scarpet schedule: 0,011ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: overworld:]
+[15:02:42] [Server thread/INFO]: [Lunion4: - Spawning: 1,256ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: - Block Entities: 0,021ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: - Random Ticks: 0,151ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: - Unloading: 0,011ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: - Entities: 1,322ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: - Environment: 0,055ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: the_end:]
+[15:02:42] [Server thread/INFO]: [Lunion4: - Schedule Ticks: 0,011ms]
+[15:02:42] [Server thread/INFO]: [Lunion4: The Rest, whatever that might be: 0,511ms]
+[15:29:02] [Server thread/INFO]: Stopping the server
+[15:29:02] [Server thread/INFO]: UDP server is stopped
+[15:29:02] [Server thread/INFO]: Starting shutdown process...
+[15:29:02] [Server thread/INFO]: Closing storage...
+[15:29:02] [Server thread/INFO]: Goodbye!
+[15:29:02] [Server thread/INFO]: Stopping server
+[15:29:02] [Server thread/INFO]: Saving players
+[15:29:02] [Server thread/INFO]: Saving worlds
+[15:29:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:29:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:29:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:29:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:29:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:29:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:29:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:29:03] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[15:29:03] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
